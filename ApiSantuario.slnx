@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/Elementos de la solución/">
+    <File Path="ApiSantuario.http" />
+  </Folder>
+  <Project Path="ApiSantuario/ApiSantuario.csproj" />
+</Solution>

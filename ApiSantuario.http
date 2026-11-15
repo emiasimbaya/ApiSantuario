@@ -1,0 +1,31 @@
+
+GET https://localhost:44377/api/caballeros
+Accept: application/json
+
+
+### POST - Crear caballero
+POST https://localhost:44377/api/caballeros
+Content-Type: application/json
+Accept: application/json
+
+{
+  "Nombre": "Seiya de Pegaso",
+  "Edad": 13
+}
+
+
+### PUT - Actualizar caballero
+PUT https://localhost:44377/api/caballeros/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "CaballeroId": 1,
+  "Nombre": "Seiya de Pegaso",
+  "Edad": 14
+}
+
+
+### DELETE - Eliminar caballero
+DELETE https://localhost:44377/api/caballeros/1
+Accept: application/json
